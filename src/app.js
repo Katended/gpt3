@@ -1,10 +1,10 @@
 import React from 'react';
 import { Footer,Blog,Possibility,Whatgpt3,Header, Features} from './containers'
 import {Cta,Brand,NavBar} from './components'
+import './App.css'
 
 const App = () => {
-  return (
-    <div>
+  return (    
       <div className="App">
         <div className="gradient__bg">
           <NavBar/>
@@ -17,8 +17,7 @@ const App = () => {
         <Cta/>
         <Blog/>
         <Footer/>
-      </div>
-    </div>
+      </div>      
   )
 }
 
