@@ -1,7 +1,6 @@
 // chatSlice.js
-
-import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import { client } from 'https://cdn.jsdelivr.net/npm/@gradio/client/+esm';
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 export const fetchChatResponse = createAsyncThunk(
   'chat/fetchChatResponse',
