@@ -1,0 +1,17 @@
+.gpt3__sidemenu {
+  flex: 0.3;
+  border: 1px solid white;
+  color: aliceblue;
+  height: 30rem;
+  font-family: var(--font-family);
+  font-size: small;
+}
+
+.gpt3__sidemenu_button {
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: aliceblue;
+  align-content: flex-end;
+  cursor: pointer;
+}

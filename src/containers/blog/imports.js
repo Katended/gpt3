@@ -5,9 +5,9 @@ import blog04 from '../../assets/blog04.png';
 import blog05 from '../../assets/blog05.png';
 
 export {
-    blog01,
-    blog02,
-    blog03,
-    blog04,
-    blog05,
+  blog01,
+  blog02,
+  blog03,
+  blog04,
+  blog05,
 };

@@ -1,6 +1,7 @@
-import React from 'react'
-import Feature from '../../components/feature/feature'
-import './features.css'
+import React from 'react';
+import { v4 as uuidv4 } from 'uuid';
+import Feature from '../../components/feature/feature';
+import './features.css';
 
 const featuresData = [
   {
@@ -14,21 +15,20 @@ const featuresData = [
   {
     title: 'Audio',
     text: 'Research on applying AI to audio processing and audio generation has led to developments in automatic speech recognition and original musical compositions.',
-  }
+  },
 ];
 
 const Features = () => (
   <div className="gpt3__features section__padding" id="features">
     <div className="gpt3__features-heading">
-     <h1 className="gradient__text">The Future is Now and You Just Need to Realize It. Step into Future Today. & Make it Happen.</h1>     
+      <h1 className="gradient__text">The Future is Now and You Just Need to Realize It. Step into Future Today. & Make it Happen.</h1>
     </div>
     <div className="gpt3__features-container">
-      {featuresData.map((item, index) => {
-        return (
-          <Feature title={item.title} text={item.text} key={item.title + index} />
-        );
-      })}
+      {featuresData.map((item) => (
+        <Feature title={item.title} text={item.text} key={uuidv4()} />
+      ))}
     </div>
   </div>
 );
-export default Features
+
+export default Features;
