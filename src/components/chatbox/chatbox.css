@@ -40,7 +40,6 @@
 }
 
 .gpt3__chatbox-bot-message {
-  padding-left: 20px;
   display: flex;
   width: 49%;
   align-self: flex-start;
