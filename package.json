@@ -1,5 +1,6 @@
 {
-  "name": "Hugging Face AI Chat",
+  "homepage": "//https://katended.github.io/gpt3/",
+  "name": "Hugging-Face",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
